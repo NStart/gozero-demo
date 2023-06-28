@@ -1,0 +1,19 @@
+Etcd:
+  Key: rpcServer
+  Hosts:
+    - "127.0.0.1:6379"
+    - "127.0.0.1:6377"
+    - "127.0.0.1:6376"
+
+UserRpc:
+  #需要定义ETCD
+  Etcd:
+    Key: UserRpc
+
+PortRpc:
+  Etcd:
+    Key: UserRpc
+
+OtherRpc:
+  Etcd:
+    Key: UserRpc

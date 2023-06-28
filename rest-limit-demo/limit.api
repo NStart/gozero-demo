@@ -1,0 +1,6 @@
+syntax = "v1"
+
+service limit {
+	@handler ping
+	get /ping
+}
